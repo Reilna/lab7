@@ -48,11 +48,3 @@
 5. Запустить сервер: `go run task-5/server-mid.go`; GET-запрос по ручке `http://localhost:8080/hello` или через `curl http://localhost:8080/hello` логирует метод и URL запроса, время его обработки; POST-запрос через `curl -X POST http://localhost:8080/data -H "Content-Type: application/json" -d '{"name": "Типур", "age": 20}'` действует аналогичным образом
 6. Запустить сервер: `go run server-chatus.go`, предварительно переместившись в `cd go-lab-7/task-6`; Протестировать чат можно через платформу `https://piehost.com/websocket-tester`, адрес подключения: `ws://localhost:8080/ws`
 
-### Запуск программы на Python:
-
-1. Аналогично, только заместо `go run` пришем `python`
-2. Аналогично, только заместо `go run` пришем `python`
-3. Аналогично, только заместо `go run` пришем `python`
-4. Аналогично, только заместо `go run` пришем `python`
-5. Аналогично, только заместо `go run` пришем `python`
-6. Запустить сервер: `python3.12 go-lab-7/task-6/server-chatus.py `,  дальше аналогично
