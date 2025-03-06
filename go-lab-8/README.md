@@ -74,15 +74,3 @@
    - Запустить сервер: `cd task-6` `go run bd.go`
    - Запустить тесты: `go test -v`
 6. См. этот Readme файл
-
-### Запуск программы на Python:
-
-1. Запустить сервер: `python task-1/rest-api.py`; Запросы выполняются ананалогично.
-2. Убедиться, что установлен psycopg2: `pip install psycopg2`; Запустить сервер: `python3.12 task-2/bd-postgresql.py`. Запросы выполняются ананалогично.
-3. Запустить сервер: `python3.12 task-3/validation.py`; Запросы выполняются ананалогично.
-4. Запустить сервер: `python3.12 task-4/pagination.py`. Запросы выполняются ананалогично.
-5. Тестирование
-   - Убедитьс, что установлен:`pip install requests`
-   - Запустить сервер: `python3.12 task-5/bd.py`.
-   - Запустить тесты: `python3.12 -m unittest task-5/bd_test.py`
-6. См. этот Readme файл
